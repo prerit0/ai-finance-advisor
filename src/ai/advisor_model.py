@@ -6,7 +6,7 @@ class FinancialAdvisor:
 
     def __init__(self):
 
-        model = "google/flan-t5-base"
+        model = "google/flan-t5-small"
 
         self.tokenizer = AutoTokenizer.from_pretrained(model)
 

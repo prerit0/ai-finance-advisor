@@ -1,2 +1,39 @@
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Streamlit cache
+.streamlit/
+
+# HuggingFace model cache
+.cache/
+huggingface/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Large model files
+*.safetensors
+*.bin
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# IDE folders
+.vscode/
+.idea/
